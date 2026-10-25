@@ -16,6 +16,13 @@
   <a href="https://github.com/eshitanagaria?tab=repositories">
     <img src="https://img.shields.io/badge/Repositories-Explore-7C3AED?style=flat-square&logo=github" alt="Explore Repositories"/>
   </a>
+  
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/repos/eshitanagaria?style=for-the-badge&color=7C3AED" alt="Public Repositories"/>
+  <img src="https://img.shields.io/github/stars/eshitanagaria?affiliations=OWNER&style=for-the-badge&color=7C3AED" alt="Stars Earned"/>
+
 </p>
 
 <img
