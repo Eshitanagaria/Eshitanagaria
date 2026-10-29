@@ -94,86 +94,139 @@ I'm interested in building practical software, exploring intelligent systems, an
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
 
-## Featured Projects
+<h2 align="center">Featured Projects</h2>
 
-A few projects worth checking out.
+<p align="center">
+  From full-stack applications and desktop software to community platforms
+  and tools for competitive programming.
+</p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-
-### Lyrify
-
-A desktop lyrics overlay that displays synchronized,
-karaoke-style lyrics while you listen to music.
-
-**Highlights**
-- Floating, always-on-top lyrics overlay
-- Spotify and YouTube playback support
-- Customizable appearance and playback controls
-
-**Tech:** JavaScript · Electron · APIs
-
-<a href="https://github.com/Eshitanagaria/Lyrify">
-  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Lyrify"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### ICPC India Prelims Ranklist
-
-A filterable dashboard for exploring the tentative
-ICPC India Prelims 2026 ranklist and regional registrations.
-
-**Highlights**
-- Search and filter teams and colleges
-- Explore Mathura and Chennai regional registrations
-- Inspect linked problem submissions
-- Responsive interface with light and dark modes
-
-**Tech:** HTML · CSS · JavaScript · GitHub Pages
-
-<a href="https://github.com/eshitanagaria/icpc-india-prelims-2026">
-  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View ICPC Ranklist"/>
-</a>
-
-<a href="https://eshitanagaria.github.io/icpc-india-prelims-2026/">
-  <img src="https://img.shields.io/badge/Live%20Demo-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo"/>
-</a>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### ISRO Cloud Removal
-
-A computer vision project focused on cloud removal
-from satellite imagery.
-
-<a href="https://github.com/Eshitanagaria/Isro-Cloud-removal">
-  <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View ISRO Cloud Removal"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### More Projects
-
-Explore my repositories for more experiments,
-development projects, and problem-solving work.
-
-<a href="https://github.com/eshitanagaria?tab=repositories">
-  <img src="https://img.shields.io/badge/All%20Repositories-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="All Repositories"/>
-</a>
-
-</td>
-</tr>
+      <h3>ICPC India Prelims 2026 Ranklist</h3>
+      <p>
+        An interactive dashboard for exploring the tentative ICPC India
+        Prelims 2026 ranklist, covering 4,055 teams and 375 colleges,
+        alongside Mathura and Chennai regional registrations.
+      </p>
+      <strong>Highlights</strong>
+      <ul>
+        <li>Searchable and filterable team ranklist</li>
+        <li>College ranks, institute toppers, and regional tags</li>
+        <li>Direct links to accepted CodeChef submissions</li>
+        <li>Regional registration and historical-list comparison</li>
+        <li>Private browser-local notes with backup and restore</li>
+        <li>Responsive interface with light and dark modes</li>
+      </ul>
+      <p>
+        <strong>Stack:</strong><br/>
+        HTML · CSS · JavaScript · GitHub Pages
+      </p>
+      <a href="https://eshitanagaria.github.io/icpc-india-prelims-2026/">
+        <img src="https://img.shields.io/badge/Live%20Dashboard-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white" alt="Live Dashboard"/>
+      </a>
+      <a href="https://github.com/Eshitanagaria/icpc-india-prelims-2026">
+        <img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+      </a>
+      <p>
+        <sub>Unofficial dashboard based on tentative ranklist data.</sub>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Everlink</h3>
+      <p>
+        A team-built university-community discovery platform designed to
+        connect students with alumni, professors, research interests,
+        expertise, and opportunities.
+      </p>
+      <strong>Highlights</strong>
+      <ul>
+        <li>Intent-based discovery of people and opportunities</li>
+        <li>Community network visualizations</li>
+        <li>Prototype matching engine with configurable scoring weights</li>
+        <li>Student, professor, and admin dashboard experiences</li>
+        <li>Graph-oriented architecture connecting skills, projects, and experience</li>
+      </ul>
+      <p>
+        <strong>Stack:</strong><br/>
+        React · TypeScript · Vite · FastAPI · Python · Neo4j
+      </p>
+      <a href="https://everlink-hackora.vercel.app/">
+        <img src="https://img.shields.io/badge/Live%20Demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+      </a>
+      <a href="https://github.com/hackora-iiitd/everlink">
+        <img src="https://img.shields.io/badge/Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository"/>
+      </a>
+      <p>
+        <sub>Collaborative team project. Some backend integrations and
+        production capabilities remain in development.</sub>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Lyrify</h3>
+      <p>
+        A translucent, karaoke-style desktop lyrics overlay that floats
+        above other windows and synchronizes lyrics with Spotify and
+        YouTube playback.
+      </p>
+      <strong>Highlights</strong>
+      <ul>
+        <li>Real-time karaoke-style lyric highlighting</li>
+        <li>Spotify desktop, web player, and mobile playback support</li>
+        <li>YouTube synchronization through a Chrome extension</li>
+        <li>Customizable appearance, opacity, and font size</li>
+        <li>Always-on-top and click-through modes</li>
+        <li>Windows installer and universal macOS package</li>
+      </ul>
+      <p>
+        <strong>Stack:</strong><br/>
+        Electron · JavaScript · Spotify API · Chrome Extensions · WebSockets
+      </p>
+      <a href="https://github.com/Eshitanagaria/Lyrify/releases">
+        <img src="https://img.shields.io/badge/Download%20App-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Download Lyrify"/>
+      </a>
+      <a href="https://github.com/Eshitanagaria/Lyrify">
+        <img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>BookMyMovie</h3>
+      <p>
+        A full-stack MERN movie ticket booking platform where users can
+        discover movies, explore showtimes, select seats, make payments,
+        and receive booking confirmations.
+      </p>
+      <strong>Highlights</strong>
+      <ul>
+        <li>Live movie data and detailed movie pages via TMDB</li>
+        <li>Interactive seat selection and Stripe checkout</li>
+        <li>Automated seat release and email reminders</li>
+        <li>Authentication, favorites, and booking history</li>
+        <li>Admin dashboard for shows and bookings</li>
+      </ul>
+      <p>
+        <strong>Stack:</strong><br/>
+        React · Vite · Tailwind CSS · Node.js · Express · MongoDB ·
+        Clerk · Stripe · Inngest
+      </p>
+      <a href="https://book-my-movie-five.vercel.app/">
+        <img src="https://img.shields.io/badge/Live%20Demo-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+      </a>
+      <a href="https://github.com/Eshitanagaria/BookMyMovie">
+        <img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+      </a>
+    </td>
+  </tr>
 </table>
 
----
+<p align="center">
+  <a href="https://github.com/Eshitanagaria?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore%20All%20Repositories-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Explore All Repositories"/>
+  </a>
+</p>
 
 <!-- ===================== GITHUB ANALYTICS ===================== -->
 
